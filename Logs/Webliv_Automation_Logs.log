@@ -1,0 +1,4 @@
+01-07-2015 19:36:30 INFO [NewTest]: printing info
+01-07-2015 19:36:30 DEBUG[NewTest]: debugging
+01-07-2015 19:36:30 WARN [NewTest]: warning
+01-07-2015 19:36:30 ERROR[NewTest]: error

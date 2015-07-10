@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="2" total="4" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="37" started-at="2015-07-10T12:07:06Z" finished-at="2015-07-10T12:07:06Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="37" started-at="2015-07-10T12:07:06Z" finished-at="2015-07-10T12:07:06Z">
+      <class name="com.ecare.com.ecare.TestNG.MultipleTest">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:com.ecare.com.ecare.TestNG.MultipleTest@705d9072]" name="BeforeTest" is-config="true" duration-ms="8" started-at="2015-07-10T17:37:06Z" finished-at="2015-07-10T17:37:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method status="FAIL" signature="f()[pri:0, instance:com.ecare.com.ecare.TestNG.MultipleTest@705d9072]" name="f" duration-ms="7" started-at="2015-07-10T17:37:06Z" finished-at="2015-07-10T17:37:06Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.ecare.com.ecare.TestNG.MultipleTest.f(MultipleTest.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="FAIL" signature="f()[pri:0, instance:com.ecare.com.ecare.TestNG.MultipleTest@705d9072]" name="f" duration-ms="1" started-at="2015-07-10T17:37:06Z" finished-at="2015-07-10T17:37:06Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.ecare.com.ecare.TestNG.MultipleTest.f(MultipleTest.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:1049)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1254)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="d()[pri:0, instance:com.ecare.com.ecare.TestNG.MultipleTest@705d9072]" name="d" duration-ms="1" started-at="2015-07-10T17:37:06Z" finished-at="2015-07-10T17:37:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- d -->
+        <test-method status="SKIP" signature="a()[pri:0, instance:com.ecare.com.ecare.TestNG.MultipleTest@705d9072]" name="a" duration-ms="1" started-at="2015-07-10T17:37:06Z" depends-on-methods="com.ecare.com.ecare.TestNG.MultipleTest.f" finished-at="2015-07-10T17:37:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:com.ecare.com.ecare.TestNG.MultipleTest@705d9072]" name="AfterTest" is-config="true" duration-ms="0" started-at="2015-07-10T17:37:06Z" finished-at="2015-07-10T17:37:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+      </class> <!-- com.ecare.com.ecare.TestNG.MultipleTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

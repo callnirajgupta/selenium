@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.047">
+  <properties />
+  
+  
+            <testcase name="f" time="0.000" classname="com.ecare.com.ecare.TestNG.Gridtest" />
+                <testcase name="c" time="0.000" classname="com.ecare.com.ecare.TestNG.Gridtest" />
+                <testcase name="b" time="0.047" classname="com.ecare.com.ecare.TestNG.Gridtest" />
+      
+</testsuite>

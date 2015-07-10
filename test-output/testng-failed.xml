@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.ecare.com.ecare.TestNG.RetryListener"/>
+  </listeners>
+  <test name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.ecare.com.ecare.TestNG.MultipleTest">
+        <methods>
+          <include name="a"/>
+          <include name="AfterTest"/>
+          <include name="f"/>
+          <include name="BeforeTest"/>
+        </methods>
+      </class> <!-- com.ecare.com.ecare.TestNG.MultipleTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
